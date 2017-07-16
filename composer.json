@@ -1,0 +1,33 @@
+{
+    "name": "slavkovrn/yii2-dynatreemenu",
+    "description": "Yii2 DynaTree Menu widget uses Dynamic tree view control jquery.dynatree.js",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "Menu widget", "jQuery.ui Dynamic tree view control"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://rbac.kadastrcard.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/SlavKoVrn/yii2-dynatreemenu/issues?state=open",
+        "source": "https://github.com/SlavKoVrn/yii2-dynatreemenu"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-jui": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "slavkovrn\\dynatreemenu\\": "src/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
