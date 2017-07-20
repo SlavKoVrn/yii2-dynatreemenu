@@ -2,7 +2,7 @@
 
 The extension uses jQuery.ui DynaTree and makes treeview menu from php array of structure defined.
 
-[Read more](http://rbac.kadastrcard.ru).
+[TreeView Menu generator](http://rbac.kadastrcard.ru).
 
 ![DynaTree Menu](http://rbac.kadastrcard.ru/uploads/dynatreemenu.jpg)
 
