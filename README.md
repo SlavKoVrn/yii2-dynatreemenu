@@ -2,9 +2,9 @@
 
 The extension uses jQuery.ui DynaTree and makes treeview menu from php array of structure defined.
 
-[TreeView Menu generator](http://rbac.kadastrcard.ru).
+[TreeView Menu generator](http://yii2.kadastrcard.ru).
 
-![DynaTree Menu](http://rbac.kadastrcard.ru/uploads/dynatreemenu.jpg)
+![DynaTree Menu](http://yii2.kadastrcard.ru/uploads/dynatreemenu.jpg)
 
 ## Installation
 
@@ -35,60 +35,60 @@ $tree=[
             'description' => 'Tool tip description for Menu0',
             'href' => '/link_when_DblClicked.html',
             'children' => [
-                0 => [
-                        'name' => 'SubMenu0 name',
-                        'description' => 'Tool tip description for SubMenu0',
-                        'href' => '/link_when_DblClicked.html',
-                        'children' => [
-                            0 => [
-                                    'name' => 'SubSubMenu0 name',
-                                    'description' => 'Tool tip description for SubSubMenu0',
-                                    'href' => '/link_when_DblClicked.html',
-                                    'children' => [
-                                         1 => [
-                                                'name' => 'SubSubSubMenu1 name',
-                                                'description' => 'Tool tip description for SubSubSubMenu1',
-                                                'href' => '/link_when_DblClicked.html',
-                                            ],
-                                        2 => [
-                                                'name' => 'SubSubSubMenu2 name',
-                                                'description' => 'Tool tip description for SubSubSubMenu2',
-                                                'href' => '/link_when_DblClicked.html',
-                                            ],
-                                   ]
-                                ],
-                            1 => [
-                                    'name' => 'SubSubMenu1 name',
-                                    'description' => 'Tool tip description for SubSubMenu1',
-                                    'href' => '/link_when_DblClicked.html',
-                                ],
-                            2 => [
-                                    'name' => 'SubSubMenu2 name',
-                                    'description' => 'Tool tip description for SubSubMenu2',
-                                    'href' => '/link_when_DblClicked.html',
-                                ],
-                        ]
-                    ],
                 1 => [
                         'name' => 'SubMenu1 name',
                         'description' => 'Tool tip description for SubMenu1',
                         'href' => '/link_when_DblClicked.html',
+                        'children' => [
+                            2 => [
+                                    'name' => 'SubSubMenu2 name',
+                                    'description' => 'Tool tip description for SubSubMenu2',
+                                    'href' => '/link_when_DblClicked.html',
+                                    'children' => [
+                                         3 => [
+                                                'name' => 'SubSubSubMenu3 name',
+                                                'description' => 'Tool tip description for SubSubSubMenu3',
+                                                'href' => '/link_when_DblClicked.html',
+                                            ],
+                                        4 => [
+                                                'name' => 'SubSubSubMenu4 name',
+                                                'description' => 'Tool tip description for SubSubSubMenu4',
+                                                'href' => '/link_when_DblClicked.html',
+                                            ],
+                                   ]
+                                ],
+                            5 => [
+                                    'name' => 'SubSubMenu5 name',
+                                    'description' => 'Tool tip description for SubSubMenu5',
+                                    'href' => '/link_when_DblClicked.html',
+                                ],
+                            6 => [
+                                    'name' => 'SubSubMenu6 name',
+                                    'description' => 'Tool tip description for SubSubMenu6',
+                                    'href' => '/link_when_DblClicked.html',
+                                ],
+                        ]
                     ],
-                2 => [
-                        'name' => 'SubMenu2 name',
-                        'description' => 'Tool tip description for SubMenu2',
+                7 => [
+                        'name' => 'SubMenu7 name',
+                        'description' => 'Tool tip description for SubMenu7',
+                        'href' => '/link_when_DblClicked.html',
+                    ],
+                8 => [
+                        'name' => 'SubMenu8 name',
+                        'description' => 'Tool tip description for SubMenu8',
                         'href' => '/link_when_DblClicked.html',
                     ],
            ]
         ],
-    1 => [
-            'name' => 'Menu1 name',
-            'description' => 'Tool tip description for Menu1',
+    9 => [
+            'name' => 'Menu9 name',
+            'description' => 'Tool tip description for Menu9',
             'href' => '/link_when_DblClicked.html',
         ],
-    2 => [
-            'name' => 'Menu2 name',
-            'description' => 'Tool tip description for Menu2',
+    10 => [
+            'name' => 'Menu10 name',
+            'description' => 'Tool tip description for Menu10',
             'href' => '/link_when_DblClicked.html',
         ],
 ];
