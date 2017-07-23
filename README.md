@@ -2,13 +2,15 @@
 
 The extension uses jQuery.ui DynaTree and makes treeview menu from php array of structure defined.
 
-[TreeView Menu generator](http://yii2.kadastrcard.ru).
+[DynaTreeMenu PHP Array generator](http://yii2.kadastrcard.ru/dynatreemenu).
 
 ![DynaTree Menu](http://yii2.kadastrcard.ru/uploads/dynatreemenu.jpg)
 
 ## Installation
 
-Install with composer:
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run:
 
 ```bash
 composer require slavkovrn/yii2-dynatreemenu
@@ -21,6 +23,9 @@ or add
 ```
 
 to the require section of your `composer.json` file.
+
+Usage
+-----
 
 Set link to extension in your view:
 
